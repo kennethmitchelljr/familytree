@@ -1,70 +1,8 @@
-
 var treeData = [
   {
     "name": "Rho Gamma",
     "parent": "null",
     "children": [
-      {
-        "name": "Cathleen Manville",
-        "parent": "Rho Gamma",
-        "children": [
-          {
-            "name": "Edgar Kidd",
-            "parent": "Cathleen Manville",
-	    "children":[
-	       {
-		"name": "Derek Giandino",
-		"children": [
-			{
-			"name": "George Ngo"
-			},
-			{
-			"name": "Thaysa Barbera",
-			"children": [
-				{
-				"name": "Christopher Boyd"
-				}
-			    ]
-			}
-		    ]
-		},
-		{
-		"name": "Scotty Hickson",
-		"children": [
-			{
-			"name": "John Bratos"
-			}
-		    ]
-		},
-		{
-		"name": "Patrick Jory",
-		"children": [
-			{
-			"name": "Victor Serrano"
-			},
-			{
-			"name": "Rafael Arvelo",
-			"children": [
-				{
-				"name": "Francisco Hernandez",
-				"children": [
-					{
-					"name": "Josue Fuentes"
-					}
-				    ]
-				}
-			    ]
-			}
-		    ]
-		}
-	     ]
-          },
-          {
-            "name": "Erin Browning",
-            "parent": "Cathleen Manville"
-          }
-        ]
-      },
       {
         "name": "Jed Gorman",
         "parent": "Rho Gamma"
@@ -254,3 +192,5 @@ function click(d) {
   }
   update(d);
 }
+
+//Define Family Variables
